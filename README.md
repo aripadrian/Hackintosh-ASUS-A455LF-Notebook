@@ -1,6 +1,6 @@
 # Hackintosh-ASUS-A455LF-Notebook
 
-My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
+My EFI Folder for ASUS-A455LF-WX039D Series with Clover/OpenCore Legacy or UEFI
  
 <img src="/Images/Sept-MacBook-Images.png?raw=true" alt="macOS Mojave" align="center">
  
