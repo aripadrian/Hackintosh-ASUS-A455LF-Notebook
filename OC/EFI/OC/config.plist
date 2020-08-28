@@ -2097,7 +2097,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02532301QXGDVV1F</string>
+			<string>M0000000000000001</string>
 			<key>ROM</key>
 			<data>
 			GHULgfCy
@@ -2107,9 +2107,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro12,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02QCL8SFVH3</string>
+			<string>M0000000000000001</string>
 			<key>SystemUUID</key>
-			<string>6AC1D322-6D8C-47F8-9871-33E057F8F13E</string>
+			<string>00000000-0000-0000-0000-000000000000</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
