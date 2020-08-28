@@ -1,0 +1,186 @@
+21:283  0:099  Found BIOS RSDP at %p
+21:283  0:000  Printing ACPI tables from RSDP %p ...
+21:283  0:000   %p: 'RSD PTR ú_ASUS_(À8Ë$', Rev: -993526313 (Acpi 2.0 or newer), Len: 36
+21:283  0:000    (Xsdt: %p, Rsdt: %p)
+21:283  0:000    %p: 'XSDTÜ', 'XSDT', Rev: -993526489, Len: 1
+21:283  0:000    %p: 'RSDT€', 'RSDT', Rev: -993526489, Len: 1
+21:283  0:000    Tables in Xsdt: 23
+21:283  0:000    0. %p: 'FACP', 'FACP', Rev: -993526489, Len: 5
+21:283  0:000        (Dsdt: CB38C228, Facs: CC41BF80, XDsdt: cb38c228, XFacs: 0)
+21:283  0:000        %p: 'DSDTq{', 'DSDT', Rev: -993526633, Len: 2
+21:283  0:000        %p: 'FACS@', Ver: -993526469, Len: 2
+21:283  0:000    1. %p: 'APIC„', 'APIC', Rev: -993526489, Len: 3
+21:283  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -993526489, Len: 1
+21:283  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -993526489, Len: 1
+21:283  0:000    4. %p: 'ECDTÁ', 'ECDT', Rev: -993526489, Len: 1
+21:283  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -993526489, Len: 1
+21:283  0:000    6. %p: 'HPET8', 'HPET', Rev: -993526489, Len: 1
+21:283  0:000    7. %p: 'SSDT', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    8. %p: 'UEFIB', 'UEFI', Rev: -993526489, Len: 1
+21:283  0:000    9. %p: 'SSDT”', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    10. %p: 'SSDT}', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    11. %p: 'ASF! ', 'ASF!', Rev: -993526489, Len: 32
+21:283  0:000    12. %p: 'SSDT9', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    13. %p: 'SSDTt', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    14. %p: 'SSDTE2', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    15. %p: 'SSDT”', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    16. %p: 'PCCTn', 'PCCT', Rev: -993526489, Len: 5
+21:283  0:000    17. %p: 'SSDTÄ
+', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    18. %p: 'SSDTm', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    19. %p: 'SSDTb', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    20. %p: 'DMAR¨', 'DMAR', Rev: -993526489, Len: 1
+21:283  0:000    21. %p: 'BGRT8', 'BGRT', Rev: -993526489, Len: 1
+21:283  0:000    22. %p: 'SSDTð', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    Tables in Rsdt: 23
+21:283  0:000    0. %p: 'FACP„', 'FACP', Rev: -993526489, Len: 2
+21:283  0:000        (Dsdt: CB38C228, Facs: CC41BF40)
+21:283  0:000        %p: 'DSDTq{', 'DSDT', Rev: -993526633, Len: 2
+21:283  0:000        %p: 'FACS@', Ver: -993526469, Len: 0
+21:283  0:000    1. %p: 'APIC„', 'APIC', Rev: -993526489, Len: 3
+21:283  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -993526489, Len: 1
+21:283  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -993526489, Len: 1
+21:283  0:000    4. %p: 'ECDTÁ', 'ECDT', Rev: -993526489, Len: 1
+21:283  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -993526489, Len: 1
+21:283  0:000    6. %p: 'HPET8', 'HPET', Rev: -993526489, Len: 1
+21:283  0:000    7. %p: 'SSDT', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    8. %p: 'UEFIB', 'UEFI', Rev: -993526489, Len: 1
+21:283  0:000    9. %p: 'SSDT”', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    10. %p: 'SSDT}', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    11. %p: 'ASF! ', 'ASF!', Rev: -993526489, Len: 32
+21:283  0:000    12. %p: 'SSDT9', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    13. %p: 'SSDTt', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    14. %p: 'SSDTE2', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    15. %p: 'SSDT”', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    16. %p: 'PCCTn', 'PCCT', Rev: -993526489, Len: 5
+21:283  0:000    17. %p: 'SSDTÄ
+', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    18. %p: 'SSDTm', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    19. %p: 'SSDTb', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    20. %p: 'DMAR¨', 'DMAR', Rev: -993526489, Len: 1
+21:283  0:000    21. %p: 'BGRT8', 'BGRT', Rev: -993526489, Len: 1
+21:283  0:000    22. %p: 'SSDTð', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000  Found UEFI Acpi 2.0 RSDP at %p
+21:283  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’å¿ºåå•ÉŸì€¨ì¬¸$ ...
+21:283  0:000   %p: 'RSD PTR ú_ASUS_(À8Ë$', Rev: -993526313 (Acpi 2.0 or newer), Len: 36
+21:283  0:000    (Xsdt: %p, Rsdt: %p)
+21:283  0:000    %p: 'XSDTÜ', 'XSDT', Rev: -993526489, Len: 1
+21:283  0:000    %p: 'RSDT€', 'RSDT', Rev: -993526489, Len: 1
+21:283  0:000    Tables in Xsdt: 23
+21:283  0:000    0. %p: 'FACP', 'FACP', Rev: -993526489, Len: 5
+21:283  0:000        (Dsdt: CB38C228, Facs: CC41BF80, XDsdt: cb38c228, XFacs: 0)
+21:283  0:000        %p: 'DSDTq{', 'DSDT', Rev: -993526633, Len: 2
+21:283  0:000        %p: 'FACS@', Ver: -993526469, Len: 2
+21:283  0:000    1. %p: 'APIC„', 'APIC', Rev: -993526489, Len: 3
+21:283  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -993526489, Len: 1
+21:283  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -993526489, Len: 1
+21:283  0:000    4. %p: 'ECDTÁ', 'ECDT', Rev: -993526489, Len: 1
+21:283  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -993526489, Len: 1
+21:283  0:000    6. %p: 'HPET8', 'HPET', Rev: -993526489, Len: 1
+21:283  0:000    7. %p: 'SSDT', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    8. %p: 'UEFIB', 'UEFI', Rev: -993526489, Len: 1
+21:283  0:000    9. %p: 'SSDT”', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    10. %p: 'SSDT}', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    11. %p: 'ASF! ', 'ASF!', Rev: -993526489, Len: 32
+21:283  0:000    12. %p: 'SSDT9', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    13. %p: 'SSDTt', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    14. %p: 'SSDTE2', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    15. %p: 'SSDT”', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    16. %p: 'PCCTn', 'PCCT', Rev: -993526489, Len: 5
+21:283  0:000    17. %p: 'SSDTÄ
+', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    18. %p: 'SSDTm', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    19. %p: 'SSDTb', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    20. %p: 'DMAR¨', 'DMAR', Rev: -993526489, Len: 1
+21:283  0:000    21. %p: 'BGRT8', 'BGRT', Rev: -993526489, Len: 1
+21:283  0:000    22. %p: 'SSDTð', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    Tables in Rsdt: 23
+21:283  0:000    0. %p: 'FACP„', 'FACP', Rev: -993526489, Len: 2
+21:283  0:000        (Dsdt: CB38C228, Facs: CC41BF40)
+21:283  0:000        %p: 'DSDTq{', 'DSDT', Rev: -993526633, Len: 2
+21:283  0:000        %p: 'FACS@', Ver: -993526469, Len: 0
+21:283  0:000    1. %p: 'APIC„', 'APIC', Rev: -993526489, Len: 3
+21:283  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -993526489, Len: 1
+21:283  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -993526489, Len: 1
+21:283  0:000    4. %p: 'ECDTÁ', 'ECDT', Rev: -993526489, Len: 1
+21:283  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -993526489, Len: 1
+21:283  0:000    6. %p: 'HPET8', 'HPET', Rev: -993526489, Len: 1
+21:283  0:000    7. %p: 'SSDT', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    8. %p: 'UEFIB', 'UEFI', Rev: -993526489, Len: 1
+21:283  0:000    9. %p: 'SSDT”', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    10. %p: 'SSDT}', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    11. %p: 'ASF! ', 'ASF!', Rev: -993526489, Len: 32
+21:283  0:000    12. %p: 'SSDT9', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    13. %p: 'SSDTt', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    14. %p: 'SSDTE2', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    15. %p: 'SSDT”', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    16. %p: 'PCCTn', 'PCCT', Rev: -993526489, Len: 5
+21:283  0:000    17. %p: 'SSDTÄ
+', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    18. %p: 'SSDTm', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    19. %p: 'SSDTb', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    20. %p: 'DMAR¨', 'DMAR', Rev: -993526489, Len: 1
+21:283  0:000    21. %p: 'BGRT8', 'BGRT', Rev: -993526489, Len: 1
+21:283  0:000    22. %p: 'SSDTð', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000  Found UEFI Acpi 1.0 RSDP at %p
+21:283  0:000  Printing ACPI tables from RSDP %p ...
+21:283  0:000   %p: 'RSD PTR ú_ASUS_(À8Ë$', Rev: -993526313 (Acpi 2.0 or newer), Len: 36
+21:283  0:000    (Xsdt: %p, Rsdt: %p)
+21:283  0:000    %p: 'XSDTÜ', 'XSDT', Rev: -993526489, Len: 1
+21:283  0:000    %p: 'RSDT€', 'RSDT', Rev: -993526489, Len: 1
+21:283  0:000    Tables in Xsdt: 23
+21:283  0:000    0. %p: 'FACP', 'FACP', Rev: -993526489, Len: 5
+21:283  0:000        (Dsdt: CB38C228, Facs: CC41BF80, XDsdt: cb38c228, XFacs: 0)
+21:283  0:000        %p: 'DSDTq{', 'DSDT', Rev: -993526633, Len: 2
+21:283  0:000        %p: 'FACS@', Ver: -993526469, Len: 2
+21:283  0:000    1. %p: 'APIC„', 'APIC', Rev: -993526489, Len: 3
+21:283  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -993526489, Len: 1
+21:283  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -993526489, Len: 1
+21:283  0:000    4. %p: 'ECDTÁ', 'ECDT', Rev: -993526489, Len: 1
+21:283  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -993526489, Len: 1
+21:283  0:000    6. %p: 'HPET8', 'HPET', Rev: -993526489, Len: 1
+21:283  0:000    7. %p: 'SSDT', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    8. %p: 'UEFIB', 'UEFI', Rev: -993526489, Len: 1
+21:283  0:000    9. %p: 'SSDT”', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    10. %p: 'SSDT}', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    11. %p: 'ASF! ', 'ASF!', Rev: -993526489, Len: 32
+21:283  0:000    12. %p: 'SSDT9', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    13. %p: 'SSDTt', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    14. %p: 'SSDTE2', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    15. %p: 'SSDT”', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    16. %p: 'PCCTn', 'PCCT', Rev: -993526489, Len: 5
+21:283  0:000    17. %p: 'SSDTÄ
+', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    18. %p: 'SSDTm', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    19. %p: 'SSDTb', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    20. %p: 'DMAR¨', 'DMAR', Rev: -993526489, Len: 1
+21:283  0:000    21. %p: 'BGRT8', 'BGRT', Rev: -993526489, Len: 1
+21:283  0:000    22. %p: 'SSDTð', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    Tables in Rsdt: 23
+21:283  0:000    0. %p: 'FACP„', 'FACP', Rev: -993526489, Len: 2
+21:283  0:000        (Dsdt: CB38C228, Facs: CC41BF40)
+21:283  0:000        %p: 'DSDTq{', 'DSDT', Rev: -993526633, Len: 2
+21:283  0:000        %p: 'FACS@', Ver: -993526469, Len: 0
+21:283  0:000    1. %p: 'APIC„', 'APIC', Rev: -993526489, Len: 3
+21:283  0:000    2. %p: 'FPDTD', 'FPDT', Rev: -993526489, Len: 1
+21:283  0:000    3. %p: 'FIDTœ', 'FIDT', Rev: -993526489, Len: 1
+21:283  0:000    4. %p: 'ECDTÁ', 'ECDT', Rev: -993526489, Len: 1
+21:283  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -993526489, Len: 1
+21:283  0:000    6. %p: 'HPET8', 'HPET', Rev: -993526489, Len: 1
+21:283  0:000    7. %p: 'SSDT', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    8. %p: 'UEFIB', 'UEFI', Rev: -993526489, Len: 1
+21:283  0:000    9. %p: 'SSDT”', 'SSDT', Rev: -993526489, Len: 1
+21:283  0:000    10. %p: 'SSDT}', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    11. %p: 'ASF! ', 'ASF!', Rev: -993526489, Len: 32
+21:283  0:000    12. %p: 'SSDT9', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    13. %p: 'SSDTt', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    14. %p: 'SSDTE2', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    15. %p: 'SSDT”', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    16. %p: 'PCCTn', 'PCCT', Rev: -993526489, Len: 5
+21:283  0:000    17. %p: 'SSDTÄ
+', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    18. %p: 'SSDTm', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    19. %p: 'SSDTb', 'SSDT', Rev: -993526489, Len: 2
+21:283  0:000    20. %p: 'DMAR¨', 'DMAR', Rev: -993526489, Len: 1
+21:283  0:000    21. %p: 'BGRT8', 'BGRT', Rev: -993526489, Len: 1
+21:283  0:000    22. %p: 'SSDTð', 'SSDT', Rev: -993526489, Len: 1
