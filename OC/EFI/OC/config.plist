@@ -2033,6 +2033,8 @@
 				<data>
 				ZwAAAA==
 				</data>
+				<key>run-efi-updater</key>
+				<string>No</string>
 				<key>prev-lang:kbd</key>
 				<data>
 				ZW4tVVM6MA==
@@ -2100,7 +2102,7 @@
 			<string>M0000000000000001</string>
 			<key>ROM</key>
 			<data>
-			GHULgfCy
+			ESIzRFVm
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
