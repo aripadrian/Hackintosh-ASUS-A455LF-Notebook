@@ -2,7 +2,7 @@
 
 My EFI Folder for ASUS-A455LF-WX039D Series with Clover/OpenCore Legacy or UEFI
  
-<img src="/Images/Sept-MacBook-Images.png?raw=true" alt="macOS Mojave" align="center">
+<img src="/Images/Sept-Ulchre-MacBook-Pro-Catalina.png?raw=true" alt="macOS Mojave" align="center">
  
 ### How to Get it?
 
@@ -77,7 +77,7 @@ Boot -> Launch CSM | Enabled (For Reducing boot graphics glitch)
 
 1. OC Folder still under development, because version 0.6.0 DSDT not included anymore, maybe many not works for laptop
 2. Don't use my patch [DSDT.aml and SSDT.aml](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/CLOVER/EFI/CLOVER/ACPI/patched) if you have different <b>ACPI Tables/BIOS Version and Model/Freq CPU PM</b>
-3. To get match on/off my BT, edit Info.plist (BTFirmwareUploader.kext + BluetoothDevQAtherosInjector.kext + BluetoothDevBroadcomInjector.kext) then add for Product ID (3423) and Vendor ID (13D3), and install to /Library/Extensions But need Sleep and WakeUp for load firmware bluetooth, or use another method, follow [this tutorial](https://osxlatitude.com/forums/topic/10127-updated-nov-2017-fix-btfirmwareuploader-in-macos-high-sierra/)
+3. To get match on/off my BT, edit Info.plist (BTFirmwareUploader.kext + BluetoothDevQAtherosInjector.kext + BluetoothDevBroadcomInjector.kext) then add for Product ID (3423) and Vendor ID (13D3), and install to /Library/Extensions But need Sleep and WakeUp for load firmware bluetooth, or use another method, follow [this tutorial](https://osxlatitude.com/forums/topic/10127-updated-nov-2017-fix-btfirmwareuploader-in-macos-high-sierra/), not for Catalina..
 
 <img src="/Images/Sept-MacBook-Images-Bluetooth.png?raw=true" alt="macOS Mojave" align="center">
 
