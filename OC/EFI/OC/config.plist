@@ -1641,6 +1641,8 @@
 				<data>
 				ZwAAAA==
 				</data>
+				<key>run-efi-updater</key>
+				<string>No</string>
 				<key>prev-lang:kbd</key>
 				<data>
 				ZW4tVVM6MA==
