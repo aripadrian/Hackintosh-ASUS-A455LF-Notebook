@@ -580,7 +580,7 @@
 				</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				AgAWFg==
+				BgAmFg==
 				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
@@ -601,18 +601,6 @@
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
-				</data>
-				<key>framebuffer-camellia</key>
-				<data>
-				AgAAAA==
-				</data>
-				<key>framebuffer-con0-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con0-pipe</key>
-				<data>
-				EgAAAA==
 				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
