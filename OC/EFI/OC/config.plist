@@ -72,14 +72,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Instant wake ethernet device</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-LANCPRW.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Fixed memory region for IGPU</string>
 				<key>Enabled</key>
 				<true/>
@@ -1130,42 +1122,6 @@
 				<key>Replace</key>
 				<data>
 				WFBSVwI=
-				</data>
-				<key>ReplaceMask</key>
-				<data>
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>
-				AAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>change LANC Method(_PRW,0,S) to Method(XPRW,0,..), (pair with SSDT-LANCPRW.aml)</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AAAZABQfX1BSVwg=
-				</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>
-				</data>
-				<key>OemTableId</key>
-				<data>
-				AAAAAA==
-				</data>
-				<key>Replace</key>
-				<data>
-				AAAZABQfWFBSVwg=
 				</data>
 				<key>ReplaceMask</key>
 				<data>
