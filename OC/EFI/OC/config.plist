@@ -24,6 +24,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT for ASUS Battery laptop</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-BATT.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Patch mic internal</string>
 				<key>Enabled</key>
 				<true/>
@@ -1369,7 +1377,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
-				<string>Intel HD Graphics 5500 MBP12,1</string>
+				<string>Intel HD Graphics 5500</string>
 				<key>name</key>
 				<string>Display</string>
 				<key>vendor-id</key>
@@ -1400,7 +1408,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Patch engine</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1408,7 +1416,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string></string>
+				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1418,7 +1426,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>SMC emulator</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1426,7 +1434,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string></string>
+				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1436,7 +1444,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext/Contents/PlugIns/SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Video patches</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1444,7 +1452,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string></string>
+				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1732,7 +1740,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string></string>
+				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1879,9 +1887,9 @@
 				<key>BundlePath</key>
 				<string>System/Library/Extensions/IONetworkingFamily.kext</string>
 				<key>Comment</key>
-				<string>Patch engine</string>
+				<string>Network extensions</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IONetworkingFamily</string>
 				<key>Identifier</key>
@@ -2210,7 +2218,7 @@
 		<array>
 			<dict>
 				<key>Arguments</key>
-				<string></string>
+				<string>Clean Nvram</string>
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
@@ -2218,13 +2226,13 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>CleanNvram.efi</string>
+				<string>Clean Nvram</string>
 				<key>Path</key>
 				<string>CleanNvram.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
-				<string></string>
+				<string>Dump Audio</string>
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
@@ -2232,27 +2240,27 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>HdaCodecDump.efi</string>
+				<string>Dump HDA</string>
 				<key>Path</key>
 				<string>HdaCodecDump.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
-				<string></string>
+				<string>UEFI Shell</string>
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
-				<string>UEFI Shell</string>
+				<string>OC UEFI Shell</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>OpenShell.efi</string>
+				<string>UEFI Shell</string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
-				<string></string>
+				<string>Shutdown</string>
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
@@ -2266,7 +2274,7 @@
 			</dict>
 			<dict>
 				<key>Arguments</key>
-				<string></string>
+				<string>Verify MsrE2</string>
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
@@ -2274,7 +2282,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>VerifyMsrE2.efi</string>
+				<string>Verify MsrE2</string>
 				<key>Path</key>
 				<string>VerifyMsrE2.efi</string>
 			</dict>
