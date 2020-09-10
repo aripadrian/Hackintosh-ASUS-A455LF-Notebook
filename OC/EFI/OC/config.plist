@@ -24,7 +24,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+<<<<<<< HEAD
 				<string>SSDT for ASUS Battery laptop</string>
+=======
+				<string>SSDT for Battery ASUS laptop</string>
+>>>>>>> c602ba0c4e1054471641701694ef8d6b8138693e
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -77,14 +81,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-HPET.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Instant wake ethernet device</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-LANCPRW.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1151,42 +1147,6 @@
 				AAAAAA==
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>change LANC Method(_PRW,0,S) to Method(XPRW,0,..), (pair with SSDT-LANCPRW.aml)</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AAAZABQfX1BSVwg=
-				</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>
-				</data>
-				<key>OemTableId</key>
-				<data>
-				AAAAAA==
-				</data>
-				<key>Replace</key>
-				<data>
-				AAAZABQfWFBSVwg=
-				</data>
-				<key>ReplaceMask</key>
-				<data>
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>
-				AAAAAA==
-				</data>
-			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -1268,7 +1228,7 @@
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal@0,27,0</string>
+				<string>Internal</string>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
@@ -1315,7 +1275,7 @@
 				BgAmFg==
 				</data>
 				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
+				<string>Internal</string>
 				<key>device-id</key>
 				<data>
 				FhYAAA==
@@ -1388,7 +1348,7 @@
 			<key>PciRoot(0x0)/Pci(0x3,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal@0,3,0</string>
+				<string>Internal</string>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>model</key>
@@ -2222,7 +2182,7 @@
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
-				<string>Clean NVRAM</string>
+				<string>Clean Nvram</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
@@ -2240,7 +2200,11 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
+<<<<<<< HEAD
 				<string>Dump HDA</string>
+=======
+				<string>Dump Codec Audio</string>
+>>>>>>> c602ba0c4e1054471641701694ef8d6b8138693e
 				<key>Path</key>
 				<string>HdaCodecDump.efi</string>
 			</dict>
@@ -2254,7 +2218,11 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
+<<<<<<< HEAD
 				<string>UEFI Shell</string>
+=======
+				<string>OC UEFI Shell</string>
+>>>>>>> c602ba0c4e1054471641701694ef8d6b8138693e
 				<key>Path</key>
 				<string>OpenShell.efi</string>
 			</dict>
@@ -2264,7 +2232,7 @@
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
-				<string>Perform shutdown</string>
+				<string>Perform Shutdown</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
