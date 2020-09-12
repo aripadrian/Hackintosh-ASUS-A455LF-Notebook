@@ -24,11 +24,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-<<<<<<< HEAD
-				<string>SSDT for ASUS Battery laptop</string>
-=======
 				<string>SSDT for Battery ASUS laptop</string>
->>>>>>> c602ba0c4e1054471641701694ef8d6b8138693e
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -1404,7 +1400,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext/Contents/PlugIns/SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string>Video patches</string>
+				<string>SMC emulator processor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1422,7 +1418,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext/Contents/PlugIns/SMCBatteryManager.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>SMC emulator battery</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1440,7 +1436,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext/Contents/PlugIns/SMCLightSensor.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>SMC emulator light sensor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1458,7 +1454,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Video patches</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -2200,11 +2196,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-<<<<<<< HEAD
 				<string>Dump HDA</string>
-=======
-				<string>Dump Codec Audio</string>
->>>>>>> c602ba0c4e1054471641701694ef8d6b8138693e
 				<key>Path</key>
 				<string>HdaCodecDump.efi</string>
 			</dict>
@@ -2218,11 +2210,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-<<<<<<< HEAD
 				<string>UEFI Shell</string>
-=======
-				<string>OC UEFI Shell</string>
->>>>>>> c602ba0c4e1054471641701694ef8d6b8138693e
 				<key>Path</key>
 				<string>OpenShell.efi</string>
 			</dict>
